@@ -1,0 +1,6 @@
+import request
+
+url = https://discord.com/channels/684583886805532768/685072469723447359
+while True:
+  message = input()
+  r = requests.post(url, data={"content": message})
